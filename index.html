@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    
+<!-- Top Nav start -->
+
+
+<div class="lg:flex justify-between items-center hidden lg:mx-3 xl:mx-32 2xl:mx-40 text-[15px] pt-3">
+
+
+    <div class="flex justify-center items-center gap-8 font-medium">
+        <div class="relative anim-border">
+            <a href="" >fotoservice</a>
+            <p class="bg-black h-[1px] w-0 absolute duration-500"></p>
+        </div>
+        <div class="relative anim-border">
+            <a href="" >tickets & deals</a>
+            <p class="bg-black h-[1px] w-0 absolute duration-500"></p>
+        </div>
+        <div class="relative anim-border">
+            <a href="">verzekeringen</a>
+            <p class="bg-black h-[1px] w-0 absolute duration-500"></p>
+        </div>
+        <div class="relative anim-border">
+            <a href="">inspiratie</a>
+            <p class="bg-black h-[1px] w-0 absolute duration-500"></p>
+        </div>
+        
+        
+    </div>
+    
+    <div class="flex justify-center items-center gap-8 font-medium">
+        <div class="relative anim-border">
+            <a href="">winkels</a>
+            <p class="bg-black h-[1px] w-0 absolute duration-500"></p>
+        </div>
+        <div class="relative anim-border">
+            <a href="">klantenpas</a>
+            <p class="bg-black h-[1px] w-0 absolute duration-500"></p>
+        </div>
+        <div class="relative anim-border">
+            <a href="">verzekeringen</a>
+            <p class="bg-black h-[1px] w-0 absolute duration-500"></p>
+        </div>
+        <div class="relative anim-border">
+            <a href="">klantenservice</a>
+            <p class="bg-black h-[1px] w-0 absolute duration-500"></p>
+        </div> 
+        
+    </div>
+
+
+</div>
+
+
+<!-- Top Nav end -->
+
+
+
+<!-- Navbar start -->
+
+<nav id="navbar" class="flex items-center justify-between p-5 shadow-md px-3 lg:px-16 xl:px-24 2xl:px-40">
+    <!-- Left Side: Logo and Category Dropdown -->
+    <div class="flex items-center space-x-4">
+        <!-- Logo -->
+        <div class="bg-red-500 py-4 px-2">
+            <a href="#">
+                <span class="text-white font-bold text-[18px]">HEMA</span>
+            </a>
+        </div>
+
+        <!-- Category Dropdown -->
+        <div class="flex items-center space-x-1">
+            <button class="flex items-center gap-3">
+                <i class="fa-solid fa-bars text-xl"></i>
+                <span class="text-gray-800">categorieën</span>
+                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <!-- Center: Search Bar -->
+    <div class="hidden md:flex items-center w-full max-w-xl mx-4 relative">
+        <input type="text" class="w-full p-3 pl-6 focus:outline-none rounded-full bg-gray-100 text-gray-500 placeholder-gray-500" placeholder="Waar ben je naar op zoek?">
+        <i class="fa-solid fa-magnifying-glass text-xl text-gray-500 absolute right-4"></i>
+    </div>
+
+    <!-- Right Side: Icons -->
+    <div class="flex items-center space-x-2">
+        <!-- Login Icon -->
+        <button class="hover:bg-gray-200 duration-500 py-2 px-3 rounded-md">
+            <i class="fa-regular fa-user text-xl"></i>
+        </button>
+
+        <!-- Favorites Icon -->
+        <button class="hover:bg-gray-200 duration-500 py-2 px-3 rounded-md">
+            <svg class="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"></path>
+            </svg>
+        </button>
+
+        <!-- Cart Icon -->
+        <button class="hover:bg-gray-200 duration-500 py-2 px-3 rounded-md">
+            <i class="fa-solid fa-bag-shopping text-xl"></i>
+        </button>
+    </div>
+</nav>
+
+<!-- Responsive Search Bar on Smaller Screens -->
+<div class="flex md:hidden items-center p-4 relative">
+    <input type="text" class="w-full p-2 rounded-full bg-gray-100 text-gray-500 placeholder-gray-500" placeholder="Waar ben je naar op zoek?">
+    <i class="fa-solid fa-magnifying-glass text-xl text-gray-500 absolute right-7"></i>
+</div>
+
+
+<!-- Navbar end -->
+
+
+<!-- Slider 1 start -->
+
+<div class="relative flex items-center justify-center gap-6 mt-10 cursor-grab overflow-x-auto">
+    <div id="slider" class="flex gap-6 ">
+        <div class="overflow-hidden h-[140px] w-[140px] rounded-full slider-1-part duration-500">
+            <img class="h-[140px] w-[140px] rounded-full img1 duration-500" src="./Images/halloween.webp" alt="Halloween">
+        </div>
+        <div class="overflow-hidden h-[140px] w-[140px] rounded-full slider-1-part duration-500">
+            <img class="h-[140px] w-[140px] rounded-full img1 duration-500" src="./Images/baby.webp" alt="Baby">
+        </div>
+        <div class="overflow-hidden h-[140px] w-[140px] rounded-full slider-1-part duration-500">
+            <img class="h-[140px] w-[140px] rounded-full img1 duration-500" src="./Images/kind.webp" alt="Kind">
+        </div>
+        <div class="overflow-hidden h-[140px] w-[140px] rounded-full slider-1-part duration-500">
+            <img class="h-[140px] w-[140px] rounded-full img1 duration-500" src="./Images/dames.webp" alt="Dames">
+        </div>
+        <div class="overflow-hidden h-[140px] w-[140px] rounded-full slider-1-part duration-500">
+            <img class="h-[140px] w-[140px] rounded-full img1 duration-500" src="./Images/heren.webp" alt="Heren">
+        </div>
+        <div class="overflow-hidden h-[140px] w-[140px] rounded-full slider-1-part duration-500">
+            <img class="h-[140px] w-[140px] rounded-full img1 duration-500" src="./Images/wonen.webp" alt="Wonen">
+        </div>
+        <div class="overflow-hidden h-[140px] w-[140px] rounded-full slider-1-part duration-500">
+            <img class="h-[140px] w-[140px] rounded-full img1 duration-500" src="./Images/taart.webp" alt="Taart">
+        </div>
+        <div class="overflow-hidden h-[140px] w-[140px] rounded-full slider-1-part duration-500">
+            <img class="h-[140px] w-[140px] rounded-full img1 duration-500" src="./Images/vrije.webp" alt="Vrije">
+        </div>
+        
+    </div>
+
+    <div id="next-btn" class="cursor-pointer bg-white border-2 h-[80px] w-[80px] flex justify-center items-center rounded-full absolute right-32">
+        <i class="fa-solid fa-arrow-right text-3xl"></i>
+    </div>
+</div>
+
+
+
+<!-- Slider 1 end -->
+
+
+<!-- 3rd part start -->
+
+
+<div class="bg-purple-400 pt-16 h-[500px] mt-20 lg:mx-10 2xl:mx-24 rounded-2xl flex flex-col lg:flex-row justify-center gap-5 2xl:gap-20">
+
+
+    <div class="flex flex-col gap-5 pl-10">
+
+
+        <div class="text-4xl font-bold text-gray-800">
+            <h1>alles om van je</h1>
+            <h1>huis een vrolijk</h1>
+            <h1>thuis te maken</h1>
+        </div>
+    
+        <p class="w-[370px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, nisi.</p>
+        
+        <button class="border-[2px] border-black rounded-xl w-[270px] h-[60px] hover:bg-gray-900 hover:border-none hover:text-white">ontdek wonen & slapen</button>
+
+
+    </div>
+
+
+
+    <div>
+        <img class="p-6 md:p-0 rounded-lg" src="./Images/sleeping.png" alt="">
+    </div>
+
+
+</div>
+
+
+<!-- 3rd part end -->
+
+
+
+<!-- Slider-2 start -->
+
+
+<div class="flex justify-center items-center gap-6 mt-10 lg:-mt-20">
+
+
+
+    <div class=" flex flex-col gap-3">
+        <div class="relative overflow-hidden h-[350px] w-[300px] rounded-lg slider-2-part duration-500">
+            <img class="h-[350px] w-[300px] rounded-lg img1 duration-500" src="./Images/slider2.1.png" alt="">
+           
+            <img class="absolute top-4 left-4" src="./Images/30pct.svg" alt="">
+            
+        </div>
+        <p class="font-bold">Lorem ipsum dolor sit amet.</p>
+        <p class="-mt-2">geldig t/m 20 okteber</p>
+    </div>
+
+    <div class=" flex flex-col gap-3">
+        <div class="relative overflow-hidden h-[350px] w-[300px] rounded-lg slider-2-part duration-500">
+            <img class="h-[350px] w-[300px] rounded-lg img1 duration-500" src="./Images/slider2.2.jpg" alt="">
+           
+            <img class="absolute top-4 left-4" src="./Images/30pct.svg" alt="">
+            
+        </div>
+        <p class="font-bold">Lorem ipsum dolor sit amet.</p>
+        <p class="-mt-2">geldig t/m 20 okteber</p>
+    </div>
+
+    <div class=" flex flex-col gap-3">
+        <div class="relative overflow-hidden h-[350px] w-[300px] rounded-lg slider-2-part duration-500">
+            <img class="h-[350px] w-[300px] rounded-lg img1 duration-500" src="./Images/slider2.3.jpg" alt="">
+           
+            <img class="absolute top-4 left-4" src="./Images/30pct.svg" alt="">
+            
+        </div>
+        <p class="font-bold">Lorem ipsum dolor sit amet.</p>
+        <p class="-mt-2">geldig t/m 20 okteber</p>
+    </div>
+
+    <div class=" flex flex-col gap-3">
+        <div class="relative overflow-hidden h-[350px] w-[300px] rounded-lg slider-2-part duration-500">
+            <img class="h-[350px] w-[300px] rounded-lg img1 duration-500" src="./Images/slider2.4.jpg" alt="">
+           
+            <img class="absolute top-4 left-4" src="./Images/40pct.svg" alt="">
+            
+        </div>
+        <p class="font-bold">Lorem ipsum dolor sit amet.</p>
+        <p class="-mt-2">geldig t/m 20 okteber</p>
+    </div>
+
+    <div class="cursor-pointer bg-white border-2 h-[80px] w-[80px] flex justify-center items-center rounded-full absolute right-28">
+        <i class="fa-solid fa-arrow-right text-3xl"></i>
+    </div>
+
+  </div>
+
+
+
+<!-- Slider-2 end -->
+
+
+
+<!-- Footer start -->
+
+
+<footer class="bg-gray-100 py-8 mt-20">
+    <div class="container mx-auto px-4">
+      <!-- Footer Top Section -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-sm">
+        <div class="mx-auto">
+          <h3 class="font-bold mb-4">populaire categorieën</h3>
+          <ul>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">dameskleding</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">kinderkleding</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">babykleding</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">beddengoed</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">woonaccessoires</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">handdoeken</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">raamdecoratie</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">speelgoed</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">gebak</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-red-600">koffie</a></li>
+          </ul>
+        </div>
+        <div class="mx-auto">
+          <h3 class="font-bold mb-4">meer voor HEMA fans</h3>
+          <ul>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA app</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA pas</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">lees onze folders</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">folder via Whatsapp ontvangen</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA op social media</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA herontwerpwedstrijd</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA fotoservice</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA cadeaukaarten</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA tickets</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-red-600">HEMA verzekeringen</a></li>
+          </ul>
+        </div>
+        <div class="mx-auto">
+          <h3 class="font-bold mb-4">over HEMA</h3>
+          <ul>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">over ons bedrijf</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">werken bij HEMA</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">goed idee van HEMA</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">nieuws en pers</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA geschiedenis</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA zakelijk</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">klantenservice</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">actievoorwaarden</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">saldo cadeaukaart opvragen</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-red-600">partnerships</a></li>
+          </ul>
+        </div>
+        <div class="mx-auto">
+          <h3 class="font-bold mb-4">internationaal</h3>
+          <ul>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA België</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA Duitsland</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA Frankrijk</a></li>
+            <li class="mb-2"><a href="#" class="text-gray-600 hover:text-red-600">HEMA Oostenrijk</a></li>
+            <li><a href="#" class="text-gray-600 hover:text-red-600">HEMA Verenigde Arabische Emiraten</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Footer Bottom Section -->
+      <div class="mt-8 pt-4 text-sm">
+        <div class="flex flex-col md:flex-row justify-between items-center  border-y-[1px] border-gray-300 py-8 mx-3 xl:mx-10 2xl:mx-24">
+          <!-- HEMA logo -->
+          <div class="mb-4 md:mb-0">
+            <img src="./Images/logo.svg" alt="HEMA logo" class="w-16">
+          </div>
+          <!-- Legal Links -->
+          <div class="flex flex-wrap justify-center items-center space-x-6 mb-4 md:mb-0">
+            <a href="#" class="text-gray-500 hover:text-red-600 border-r-[2px] border-gray-400 pr-3">privacy statement</a>
+            <a href="#" class="text-gray-500 hover:text-red-600 border-r-[2px] border-gray-400 pr-3">disclaimer</a>
+            <a href="#" class="text-gray-500 hover:text-red-600 border-r-[2px] border-gray-400 pr-3">security</a>
+            <a href="#" class="text-gray-500 hover:text-red-600 border-r-[2px] border-gray-400 pr-3">copyright</a>
+            <a href="#" class="text-gray-500 hover:text-red-600 border-r-[2px] border-gray-400 pr-3">algemene voorwaarden</a>
+            <a href="#" class="text-gray-500 hover:text-red-600 border-r-[2px] border-gray-400 pr-3">cookies</a>
+            <div class="flex items-center gap-2">
+                <a href="#" class="text-gray-500 hover:text-red-600">nix-18</a>
+                <img src="./Images/nix-18.png" alt="NIX18" class="w-14 h-[18px]">
+            </div>
+            <div class="flex items-center gap-2">
+                <a href="#" class="text-gray-500 hover:text-red-600">thuiswinkel waarborg</a>
+                <img src="./Images/secured-shopping.png" alt="NIX18" class="w-[25px] h-[25px]">
+            </div>
+          </div>
+        </div>
+  
+        <!-- Footer Bottom Info -->
+        <div class="text-center text-gray-500 text-xs mt-4">
+          <p>HEMA B.V., NDSM-straat 10, 1033 SB Amsterdam</p>
+          <p>KvK-nummer: 34216359 | IBAN: HEMA NL67INGB0651607663</p>
+          <p>Btw-identificatienummer: NL81421712B01</p>
+          <p>E-mailadres klantenservice: hemaklantenservice@hema.nl</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+
+
+<!-- Footer end -->
+
+
+<script src="script.js"></script>
+</body>
+
+
+</html>

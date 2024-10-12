@@ -1,0 +1,52 @@
+.anim-border:hover p{
+    
+  
+    width:100%;
+
+
+}
+
+
+/* Navbar start */
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+.shadow-navbar {
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+/* Navbar end */
+
+/* Slider-1 start */
+
+.slider-1-part:hover .img1 {
+
+
+    transform:scale(1.1);
+
+
+} 
+
+
+/* Slider-1 end */
+
+
+/* Slider-2 start */
+
+.slider-2-part:hover .img1 {
+
+
+    transform:scale(1.1);
+
+
+} 
+
+
+/* Slider-2 end */
